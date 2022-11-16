@@ -32,7 +32,85 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.signup_parent_wrap {
+  height: 100vh;
+  background: url('../public//wave.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.signup_parent {
+  background-size: cover;
+  display: flex;
+}
+
+.form_wrap {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 50%;
+  padding: 20px;
+  margin: auto;
+}
+
+.form_wrap form {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  padding: 20px;
+}
+
+.form_wrap form h2 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.form_wrap form button {
+  margin-top: 40px;
+  background: lightseagreen;
+  border-radius: 20px;
+  border: 0px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.form_wrap form input {
+  border-radius: 15px;
+  border: 0px;
+  padding-left: 20px;
+}
+
+.title h1 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background: cornflowerblue;
+}
+.details h4:nth-child(1){
+  float: left;
+  margin: 20px;
+}
+.details h4:nth-child(2){
+  float: right;
+  flex: 1;
+  margin: 20px;
+  text-align: right;
 }
