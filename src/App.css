@@ -114,3 +114,10 @@
   margin: 20px;
   text-align: right;
 }
+.login_parent{
+  height: 100vh;
+  background: url('../public//network.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
